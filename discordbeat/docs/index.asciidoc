@@ -1,0 +1,5 @@
+= Discordbeat Docs
+
+Welcome to the Discordbeat documentation.
+
+

@@ -6,9 +6,15 @@ package config
 import "time"
 
 type Config struct {
-	Period time.Duration `config:"period"`
+	Period         time.Duration `config:"period"`
+	ApiToken       string        `config:"apiToken"`
+	ExportGuilds   []string      `config:"exportGuilds"`
+	ExportChannels []string      `config:"exportChannels"`
 }
 
 var DefaultConfig = Config{
-	Period: 1 * time.Second,
+	Period:         1 * time.Second,
+	ApiToken:       "",
+	ExportGuilds:   make([]string, 0),
+	ExportChannels: make([]string, 0),
 }

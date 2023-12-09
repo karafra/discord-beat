@@ -1,9 +1,9 @@
-////
-This file is generated! See _meta/fields.yml and scripts/generate_field_docs.py
-////
-
 [[exported-fields]]
 = Exported Fields
+
+--
+This document describes the fields that are exported by Discord-Beat. They are
+grouped in the following categories:
 
 * <<exported-fields-DiscordBeat>>
 * <<exported-fields-beat>>

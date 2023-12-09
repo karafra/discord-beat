@@ -5,6 +5,14 @@
 discordbeat:
   # Defines how often an event is sent to the output
   period: 1s
+  # Defines discord API token for message collection
+  apiToken: ...
+  # Defines what guilds to watch for messages (all channels in them)
+  exportGuilds:
+    -
+  # Defines what channels to watch for messages
+  exportChannels:
+    -
 
 #================================ General =====================================
 
@@ -29,15 +37,15 @@ discordbeat:
 #-------------------------- Elasticsearch output ------------------------------
 output.elasticsearch:
   # Array of hosts to connect to.
-  hosts: ["localhost:9200"]
+  hosts: [ "localhost:9200" ]
 
   # Optional protocol and basic auth credentials.
   #protocol: "https"
   #username: "elastic"
   #password: "changeme"
 
-#----------------------------- Logstash output --------------------------------
-#output.logstash:
+  #----------------------------- Logstash output --------------------------------
+  #output.logstash:
   # The Logstash hosts
   #hosts: ["localhost:5044"]
 

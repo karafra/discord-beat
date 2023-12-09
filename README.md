@@ -1,6 +1,6 @@
 # Discordbeat
 
-Welcome to Discordbeat.
+Welcome to DiscordBeat.
 
 Ensure that this folder is at the following location:
 `${GOPATH}/github.com/karafra/discord-beat`
@@ -24,7 +24,7 @@ It will create a clean git history for each major step. Note that you can always
 To push Discordbeat in the git repository, run the following commands:
 
 ```
-git remote set-url origin https://github.com/karafra/discord-beat/discordbeat
+git remote set-url origin https://github.com/karafra/discord-beat
 git push origin master
 ```
 
@@ -101,7 +101,7 @@ To clone Discordbeat from the git repository, run the following commands:
 ```
 mkdir -p ${GOPATH}/github.com/karafra/discord-beat
 cd ${GOPATH}/github.com/karafra/discord-beat
-git clone https://github.com/karafra/discord-beat/discordbeat
+git clone https://github.com/karafra/discord-beat
 ```
 
 

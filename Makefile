@@ -1,4 +1,4 @@
-BEATNAME=discordbeat
+BEATNAME=discord-beat
 BEAT_DIR=github.com/karafra/discord-beat
 SYSTEM_TESTS=false
 TEST_ENVIRONMENT=false
@@ -43,3 +43,4 @@ before-build:
 # Collects all dependencies and then calls update
 .PHONY: collect
 collect:
+

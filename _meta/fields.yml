@@ -1,5 +1,5 @@
-- key: discordbeat
-  title: discordbeat
+- key: DiscordBeat
+  title: DiscordBeat
   description:
   fields:
     - name: counter

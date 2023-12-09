@@ -2,6 +2,4 @@
 /build
 
 .DS_Store
-/discordbeat
-/discordbeat.test
 *.pyc

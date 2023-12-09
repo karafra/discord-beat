@@ -1,15 +1,13 @@
 package main
 
 import (
-	"os"
-
+	beater2 "DiscordBeat/beater"
 	"github.com/elastic/beats/libbeat/beat"
-
-	"github.com/karafra/discord-beat/discordbeat/beater"
+	"os"
 )
 
 func main() {
-	err := beat.Run("discordbeat", "", beater.New)
+	err := beat.Run("discord-beat", "", beater2.New)
 	if err != nil {
 		os.Exit(1)
 	}
